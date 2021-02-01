@@ -1,0 +1,8 @@
+# 开发工具
+.vscode
+.idea
+
+# 项目目录
+node_modules
+upload
+ext

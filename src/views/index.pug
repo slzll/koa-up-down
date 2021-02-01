@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body
+        div
+            input#upload(type="file", name="upload", onchange="upload(event)")
+        div
+            button(onclick="handleClick()") 立即下载
+        div
+            button(onClick="downloadAll()") 下载全部
+        iframe(name="myIframe", style="display: none;")
+        script
+            include index.js
