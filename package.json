@@ -20,6 +20,6 @@
   "devDependencies": {
     "chalk": "^4.1.0",
     "nodemon": "^2.0.7",
-    "pug": "^3.0.0"
+    "pug": "^3.0.1"
   }
 }
